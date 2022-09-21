@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <title>My first HTML form, styled</title>
+  </head>
+  <body>
+    <nav>
+      <a href="/" aria-current="page">Main Page</a>
+      <a href="form.html">Form page</a>
+    </nav>
+    <hr />
+    <h1>Form</h1>
+    <form>
+      <h5>Form Elements</h5>
+      <input type="text" />
+      <input type="number" />
+      <input type="radio" />
+      <input type="checkbox" />
+      <input type="date" />
+      <input type="button" />
+      <input type="submit" />
+      <button>Button</button>
+    </form>
+
+    <form action="#">
+      <h5>Sample Form</h5>
+      <label for="fname">First name:</label><br />
+      <input type="text" id="fname" name="fname" value="Karthika" /><br />
+      <label for="lName">Last name:</label><br />
+      <input
+        type="text"
+        id="lName"
+        name="lname"
+        placeholder="Enter your lastname"
+      /><br />
+      <label>Gender</label><br />
+      <input type="radio" id="male" name="gender" value="Male" />
+      <label for="male">Male</label><br />
+      <input type="radio" id="female" name="gender" value="Female" />
+      <label for="female">Female</label><br />
+      <label>Courses</label><br />
+      <input type="checkbox" id="html" name="html" value="HTML" />
+      <label for="html"> HTML</label><br />
+      <input type="checkbox" id="htmlCss" name="htmlCss" value="HTML/CSS" />
+      <label for="htmlCss"> HTML/CSS</label><br />
+      <input type="checkbox" id="js" name="js" value="JavaScript" />
+      <label for="js"> JavaScript</label><br />
+      <label for="degree">Choose a degree:</label>
+      <select id="degree" name="degree">
+        <option value="PG">PG</option>
+        <option value="UG">UG</option>
+        <option value="Graduate">Graduate</option>
+        <option value="Diploma">Diploma</option>
+      </select>
+      <br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
